@@ -1,0 +1,85 @@
+html {
+    background-color: #0f5769;
+}
+
+body {
+    margin: 0 500px;
+}
+
+img{
+    height: 250px;
+    border-radius: 15px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+    text-decoration: none;
+    color: white;
+}
+
+header, footer {
+    background-color: #5185a6;
+    height: 100px;
+    padding: 8px;
+}
+
+li {
+    display: inline-block;
+    height: 22px;
+    width: 100px;
+    padding: 12px;
+    text-align: center;
+    color: white;
+    background-color: #32aefc;
+}
+
+li:hover{
+    background-color: #05c7f7;
+}
+
+
+input[type="text"], input[type="email"], textarea, button {
+    display: block;
+    margin: 12px 0;
+}
+
+button{
+    height: 32px;
+    width: 80px;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    background-color: #32aefc;
+    border: none;
+}
+
+button:hover {
+    background-color: #05c7f7;
+}
+
+button:active{
+    border-radius: 10px;
+    background-color: #5185a6;
+}
+
+table{
+    width: 500px;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 10px;
+}
+
+.div1, .div2, .div3 {
+    background-color: #def6fc;
+    padding: 12px;
+}
+
+
+
